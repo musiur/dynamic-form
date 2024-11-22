@@ -65,7 +65,8 @@ const FormFields: FormX__TYPE_Field[] = [
     defaultValue: false
   },
 ]
-export const [HomeFormSchema, HomeFormDefaultValues, HomeFormZodType] = FormX__SchemaBuilder(FormFields)
+// const [HomeFormSchema, HomeFormDefaultValues, HomeFormZodType] = FormX__SchemaBuilder(FormFields)
+
 const FormStructure: FormX__TYPE_Structure = {
   fields: FormFields,
   submission: {
